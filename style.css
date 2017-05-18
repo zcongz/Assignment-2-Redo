@@ -1,0 +1,109 @@
+body{
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.main {
+      height: 725px;
+      background-image: url(images/background.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+@media screen and (min-width:1000px) {
+    #container {
+    height:300px;
+    width: 1000px;
+    margin: 0 auto
+  }
+}
+
+.header {
+  margin-top: 0px;
+  width:100%;
+}
+
+.logo{
+  float:left;
+  margin-top: 10px;
+  margin-left: 35px;
+  height: 90px;
+  width: 90px;
+}
+
+nav{
+  float: right;
+  margin-top: 66px;
+}
+
+.navbar {
+  color: #000000;
+  font-size: 19px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+.navbar:hover {
+  text-decoration: underline;
+}
+
+span {
+  width:100%;
+}
+
+h1 {
+  font-size: 80px;
+  color: #000000;
+  text-align: center;
+  clear: both;
+  padding-top: 200px;
+}
+
+
+#head {
+  width: 100%;
+  height: 350px;
+  background-image: url(images/header-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.port {
+  padding-top:75px;
+
+}
+
+.portfolio {
+  width: 300px;
+  height: 250px;
+
+}
+
+.padding{
+  padding-left: 46px;
+
+}
+
+.one{
+  margin-top: 60px;
+}
+
+.two{
+  margin-top: 60px;
+}
+
+.three{
+  margin-top: 60px;
+}
+
+p.name {
+  color:#ccccc;
+  font-size: 20px;
+  margin-top: 40px;
+}
